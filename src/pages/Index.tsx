@@ -25,7 +25,7 @@ const Index = () => {
         {/* Main Robot Image */}
         <div className="mt-8 mb-0">
           <img 
-            src="/lovable-uploads/b5111846-72e5-40eb-a181-b5cd9e99c6fc.png" 
+            src="/lovable-uploads/7006a3be-a04a-46ce-a459-1ba86f5a47ba.png" 
             alt="Moboyit Robots Collection" 
             className="max-w-3xl h-auto"
           />
@@ -36,3 +36,4 @@ const Index = () => {
 };
 
 export default Index;
+
