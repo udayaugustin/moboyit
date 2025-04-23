@@ -3,7 +3,7 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <div className="flex flex-col items-center mb-8">
+    <div className="flex flex-col items-center mb-2">
       <div className="w-24 h-24 mb-2">
         <img 
           src="/lovable-uploads/96ae12cc-c715-435f-b938-932281b82edd.png" 

@@ -11,7 +11,7 @@ const Index = () => {
 
       <div className="flex-1 flex flex-col items-center justify-center relative pb-16 px-4"> {/* Changed justify-between to justify-center */}
         {/* Logo and Buttons Section */}
-        <div className="container mx-auto max-w-5xl mt-16 flex items-center justify-between"> {/* Added container and flex for centering */}
+        <div className="container mx-auto max-w-2xl mt-16 flex items-center justify-center gap-8">
           <AuthButtons />
           <Logo />
           <AboutSection />
