@@ -23,11 +23,11 @@ const Index = () => {
         <AboutSection />
         
         {/* Main Robot Image */}
-        <div className="mt-8 mb-0">
+        <div className="mt-8 mb-0 px-4">
           <img 
-            src="/lovable-uploads/7006a3be-a04a-46ce-a459-1ba86f5a47ba.png" 
+            src="/lovable-uploads/e0d83103-f4f1-4e6d-8186-6446740eb0b8.png" 
             alt="Moboyit Robots Collection" 
-            className="max-w-3xl h-auto"
+            className="max-w-4xl w-full h-auto"
           />
         </div>
       </div>
@@ -36,4 +36,3 @@ const Index = () => {
 };
 
 export default Index;
-
