@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Logo from '@/components/Logo';
@@ -9,17 +8,15 @@ const Index = () => {
   return (
     <div className="flex flex-col min-h-screen bg-black overflow-hidden">
       <Navbar />
-      
-      <div className="flex-1 flex flex-col items-center justify-between relative pb-16 px-4">
+
+      <div className="flex-1 flex flex-col items-center justify-center relative pb-16 px-4"> {/* Changed justify-between to justify-center */}
         {/* Logo and Buttons Section */}
-        <div className="mt-16 w-full flex flex-col items-center">
+        <div className="container mx-auto max-w-5xl mt-16 flex items-center justify-between"> {/* Added container and flex for centering */}
+          <AuthButtons />
           <Logo />
-          <div className="flex flex-row justify-center gap-8 mt-4 md:mt-6">
-            <AuthButtons />
-            <AboutSection />
-          </div>
+          <AboutSection />
         </div>
-        
+
         {/* Main Robot Image */}
         <div className="mt-8 mb-0">
           <img 
