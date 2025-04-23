@@ -6,7 +6,7 @@ const Logo = () => {
     <div className="flex flex-col items-center mb-8">
       <div className="w-24 h-24 mb-2">
         <img 
-          src="/lovable-uploads/1e8b0495-84d0-4070-9328-780aff5f927a.png" 
+          src="/lovable-uploads/96ae12cc-c715-435f-b938-932281b82edd.png" 
           alt="Moboyit Logo" 
           className="w-full h-full object-contain"
         />
@@ -19,4 +19,3 @@ const Logo = () => {
 };
 
 export default Logo;
-
