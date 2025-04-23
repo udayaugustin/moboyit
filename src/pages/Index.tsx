@@ -10,7 +10,7 @@ const Index = () => {
     <div className="flex flex-col min-h-screen bg-black overflow-hidden">
       <Navbar />
       
-      <div className="flex-1 flex flex-col items-center justify-between relative">
+      <div className="flex-1 flex flex-col items-center justify-between relative pb-16">
         {/* Logo Section */}
         <div className="mt-16">
           <Logo />
