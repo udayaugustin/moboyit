@@ -10,12 +10,16 @@ const Index = () => {
     <div className="flex flex-col min-h-screen bg-black overflow-hidden">
       <Navbar />
       
-      <div className="flex-1 flex flex-col items-center justify-between relative pb-16 px-4">
-        {/* Logo and Buttons Section */}
-        <div className="mt-16 w-full flex flex-col items-center">
-          <Logo />
-          <div className="flex flex-row justify-center gap-8 mt-4 md:mt-6">
+      <div className="flex-1 relative pb-16 px-4">
+        {/* Top section with buttons and logo */}
+        <div className="w-full flex justify-between items-center mt-16">
+          <div className="flex-1">
             <AuthButtons />
+          </div>
+          <div className="flex-1 flex justify-center">
+            <Logo />
+          </div>
+          <div className="flex-1 flex justify-end">
             <AboutSection />
           </div>
         </div>
