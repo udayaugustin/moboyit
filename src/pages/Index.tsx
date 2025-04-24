@@ -9,20 +9,18 @@ const Index = () => {
     <div className="flex flex-col min-h-screen bg-black overflow-hidden">
       <Navbar />
 
-      <div className="flex-1 flex flex-col items-center justify-center relative pb-16 px-4">
-        {" "}
-        {/* Changed justify-between to justify-center */}
+      <div className="flex-1 flex flex-col items-center justify-start pt-12 px-4">
         {/* Logo and Buttons Section */}
-        <div className="container mx-auto max-w-2xl mt-16 flex items-center justify-center gap-8">
+        <div className="container mx-auto max-w-2xl mt-8 flex items-center justify-center gap-12">
           <AuthButtons />
           <Logo />
           <AboutSection />
         </div>
-        <div className="text-white tracking-[0.5em] text-2xl font-light mt-4">
+        <div className="text-white tracking-[0.5em] text-2xl font-light mt-12">
           M O B O Y I T
         </div>
         {/* Main Robot Image */}
-        <div className="mt-8 mb-0">
+        <div className="mt-16 mb-8">
           <img
             src="/lovable-uploads/e0d83103-f4f1-4e6d-8186-6446740eb0b8.png"
             alt="Moboyit Robots Collection"
