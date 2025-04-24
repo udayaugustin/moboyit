@@ -22,20 +22,22 @@ const NavItem = ({ text, to, className }: NavItemProps) => (
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center w-full px-12 py-6">
-      <div className="flex space-x-8">
-        <NavItem text="Explore" to="/explore" />
-        <NavItem text="Bots Nearby" to="/bots-nearby" />
-      </div>
-      
-      <div className="flex space-x-16">
+    <nav className="flex flex-col w-full px-4 py-4 space-y-4">
+      <div className="flex justify-center items-center space-x-16">
         <NavItem text="Playboyit" to="/play" className="font-medium" />
         <NavItem text="Workboyit" to="/work" className="font-medium" />
       </div>
+      
+      <div className="flex justify-between items-center px-2">
+        <div className="flex space-x-8">
+          <NavItem text="Explore" to="/explore" />
+          <NavItem text="Bots Nearby" to="/bots-nearby" />
+        </div>
 
-      <div className="flex space-x-8">
-        <NavItem text="Dire Tasks" to="/tasks" />
-        <NavItem text="Express" to="/express" />
+        <div className="flex space-x-8">
+          <NavItem text="Dire Tasks" to="/tasks" />
+          <NavItem text="Express" to="/express" />
+        </div>
       </div>
     </nav>
   );
