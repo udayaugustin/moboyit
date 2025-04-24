@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
@@ -22,12 +21,12 @@ const NavItem = ({ text, to, className }: NavItemProps) => (
 
 const Navbar = () => {
   return (
-    <nav className="flex flex-col w-full px-4 py-4 space-y-4">
+    <nav className="flex flex-col w-full px-4 py-4 space-y-2"> {/*Reduced space-y value from 4 to 2*/}
       <div className="flex justify-center items-center space-x-16">
         <NavItem text="Playboyit" to="/play" className="font-medium" />
         <NavItem text="Workboyit" to="/work" className="font-medium" />
       </div>
-      
+
       <div className="flex justify-between items-center px-2">
         <div className="flex space-x-8">
           <NavItem text="Explore" to="/explore" />
