@@ -11,7 +11,7 @@ const Index = () => {
         {/* Main Robot Image */}
         <div className="flex items-center justify-center">
           <img
-            src={getImagePath("lovable-uploads/home.png")}
+            src={getImagePath("images/home.png")}
             alt="Moboyit Robots Collection"
             className="mt-20"
           />

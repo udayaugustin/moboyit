@@ -6,7 +6,7 @@ const Logo = () => {
     <div className="flex flex-col items-center mb-2">
       <div className="mb-2">
         <img
-          src={getImagePath("lovable-uploads/logo.png")}
+          src={getImagePath("images/logo.png")}
           alt="Moboyit Logo"
           className="w-full h-full object-contain"
         />
