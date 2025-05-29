@@ -10,6 +10,10 @@ export default {
 	],
 	prefix: "",
 	theme: {
+		fontFamily: {
+			sans: ['EB Garamond', 'serif'],
+			lora: ['Lora', 'serif'],
+		},
 		container: {
 			center: true,
 			padding: '2rem',

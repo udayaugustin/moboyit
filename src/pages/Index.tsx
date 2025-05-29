@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
+import { getImagePath } from "@/utils/paths";
 
 const Index = () => {
   return (
@@ -10,7 +11,7 @@ const Index = () => {
         {/* Main Robot Image */}
         <div className="flex items-center justify-center">
           <img
-            src="/lovable-uploads/e0d83103-f4f1-4e6d-8186-6446740eb0b8.png"
+            src={getImagePath("lovable-uploads/home.png")}
             alt="Moboyit Robots Collection"
             className="mt-20"
           />
