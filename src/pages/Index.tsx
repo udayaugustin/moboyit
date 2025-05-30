@@ -13,7 +13,7 @@ const Index = () => {
           <img
             src={getImagePath("images/home.jpeg")}
             alt="Moboyit Robots Collection"
-            className="mt-0 mb-10"
+            className="mt-0 mb-1"
           />
         </div>
       </div>
