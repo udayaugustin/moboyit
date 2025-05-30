@@ -31,7 +31,7 @@ const Navbar = () => {
           {/* Left column - Menu C and D with padding-top */}
           <div className="w-1/3 flex justify-end pt-3">
             <div className="flex space-x-4 sm:space-x-10 md:space-x-16 mr-4 sm:mr-6 md:mr-10">
-            <NavItem text="Explore" to="/explore" className="font-medium" />
+            <NavItem text="Explore" to="/explore" className="font-medium pl-8 min-[400px]:pl-6 sm:pl-0" />
             <NavItem text="Bots Nearby" to="/bots-nearby" className="font-medium"/>
             </div>
           </div>
@@ -48,7 +48,7 @@ const Navbar = () => {
           <div className="w-1/3 flex justify-start pt-3">
             <div className="flex space-x-4 sm:space-x-10 md:space-x-16 ml-4 sm:ml-6 md:ml-10">
             <NavItem text="Dire Tasks" to="/tasks" className="font-medium" />
-            <NavItem text="Express" to="/express" className="font-medium" />
+            <NavItem text="Express" to="/express" className="font-medium pr-8 min-[400px]:pr-6 sm:pr-0" />
             </div>
           </div>
         </div>
