@@ -39,8 +39,8 @@ const Navbar = () => {
           {/* Center column - Menu A and B */}
           <div className="flex justify-center">
             <div className="flex space-x-4 sm:space-x-10 md:space-x-16">
-            <NavItem text="Playboyit" to="/play" className="font-medium" />
-            <NavItem text="Workboyit" to="/work" className="font-medium" />
+            <NavItem text="Playboyit" to="/play" className="font-medium text-[17px]" />
+            <NavItem text="Workboyit" to="/work" className="font-medium text-[17px]" />
             </div>
           </div>
           
@@ -54,21 +54,21 @@ const Navbar = () => {
         </div>
 
       <div className="flex justify-center gap-0 pt-3">
-        <div className="w-1/3 flex justify-end pt-6 items-center">
+        <div className="w-1/3 flex justify-end pt-14 items-start">
         <AuthButtons />
         </div>
         <div className="flex justify-center w-56 md:w-72">
         <Logo />        
         </div>
-        <div className="w-1/3 flex justify-start pt-6 items-center">
+        <div className="w-1/3 flex justify-start pt-14 items-start">
         <AboutSection />
         </div>
       </div>
-      <div className="flex justify-center gap-0 mb-10">
+      {/* <div className="flex justify-center gap-0 mb-10">
         <div className="text-white tracking-[0.5em] text-sm md:text-lg font-light">
           M O B O Y I T
         </div>
-      </div>
+      </div> */}
 
       </div>      
     </nav>
