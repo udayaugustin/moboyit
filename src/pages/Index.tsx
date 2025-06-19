@@ -7,7 +7,10 @@ const Index = () => {
     <div className="w-full max-w-[960px] mx-auto flex flex-col min-h-screen bg-black overflow-hidden">
       <Navbar />
 
-      <div className="w-full max-w-[960px] mx-auto  flex items-center justify-center">        
+      <div className="w-full max-w-[960px] mx-auto flex flex-col items-center justify-center">        
+        <div className="text-white text-[15px] font-light tracking-wider text-center">
+          Universal Platform for Robot Accessing
+        </div>
         {/* Main Robot Image */}
         <div className="flex items-center justify-center">
           <img
